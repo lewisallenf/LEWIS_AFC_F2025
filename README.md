@@ -1,2 +1,1 @@
-# LEWIS_AFC_F2025
-Class project Repo
+My favorite drink is Chai Tea Latte, without milk.
