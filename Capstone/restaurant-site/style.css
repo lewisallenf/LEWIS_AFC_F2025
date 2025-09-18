@@ -1,0 +1,97 @@
+/* I wanted a wizardly dungeon theme. Primary color = Black for the deep dungeon feeling; accent red for the hint of secrecy; and green for the
+magical poisonous hints.
+ */
+.navbar a, .unifrakturmaguntia-regular, h1 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF0000;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: #39FF14;
+}
+
+.Footer {
+    color: #39FF14;
+}
+
+body.Home {
+    background-image: url("Images/PuppyChowMaster.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -300px;
+    background-attachment: fixed;
+    color: red;
+    text-align: center;
+}
+
+body.Menu {
+    background-image: url("Images/PuppyChow2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -600px;
+    background-attachment: fixed;
+    color: #39FF14;
+    text-align: center;
+    height: 100svh;
+}
+
+body.backGround {
+    background-image: url("Images/evilside.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -500px;
+    background-attachment: fixed;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 500px
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.FavoriteColors {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    gap: 4px;
+    padding-bottom: 20px;
+}
+
+.Hiring {
+    padding: 100px;
+    font-size: 25px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #39FF14FF;
+}
+
+.Hiring h1 {
+    font-size: 45px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+

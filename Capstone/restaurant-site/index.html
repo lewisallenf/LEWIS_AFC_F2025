@@ -5,32 +5,73 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>PuppyChowLanding</title>
+    <script src="https://kit.fontawesome.com/c022196c0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-<h1>
-    WELCOME TO PUPPYCHOW!!!!!
-</h1>
-<div class="banner">
-    <img
-            alt="Picture of PuppyChow restaurant."
-            src="Images/Dog%20cafe.jpg"
-    >
-</div>
-<h3>
-    *Welcome to PuppyChow, where dogs roam free and always beg you for food. PLEASE DO NOT FEED THE DOGS!!!!! Their
-    begging is for your enjoyment.
-    We provide the freshest of ingredients. Nothing is frozen. The Puppy's and dogs around the cafe are for your
-    enjoyment, purchase some treats
-    and teach the dogs how to sit. If they are being good dogs, purchase them a pup cup. The dogs will welcome you
-    whenever you come.*
-</h3>
-<footer>
-    <h3>Back To Home</h3>
-    <a href="menu.html"
-    >PuppyChowMenu</a>
-    <h3>Back To Hiring</h3>
-    <a href="hiring.html"
-    >PuppyChowHiringStation</a>
-</footer>
+
+<body class="Home">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Images/PuppyChow%20Logo.jpeg" alt="PuppyChow Logo" width="100" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">PuppyHome
+                            <i class="fa-solid fa-shield-dog"> <!--USED FONT AWESOME DOG-SHIELD TO SIGNAL HOME-->
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kennal Map
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="menu.html" target="_blank">Menu
+                                    <i class="fa-solid fa-book-skull">  <!--USED FONT AWESOME BOOK SKULL TO SIGNAL MENU-->
+                                    </i>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="hiring.html" target="_blank">Hiring Page
+                                    <i class="fa-sharp-duotone fa-solid fa-scroll"> <!--USED FONT AWESOME SCROLL TO SIGNAL PAPER FOR APPLICATION-->
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>
+        Welcome to PuppyChow!
+    </h1>
+    <h3>
+        Release your inner dog or pup at our puppy chow kennal cafe. Hang out will fellow friends, make friends, be social,
+        and we even have a non-social corner, were you can meet other non-social pups.
+    </h3>
+    <footer>
+        <div class="location">
+            <h3>Location </h3>
+            <p>30th 15th Street, Lamda TX, 73625</p>
+        </div>
+        <div class="5Stars">
+            <h3>Rate Us 5 Stars</h3>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>+1(555)555-5555</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

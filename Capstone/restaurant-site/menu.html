@@ -5,58 +5,87 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>PuppyChowMenu</title>
+    <script src="https://kit.fontawesome.com/c022196c0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
+<body class="Menu">
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="Images/PuppyChow%20Logo.jpeg" alt="PuppyChow Logo" width="100" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">PuppyHome
+                        <i class="fa-solid fa-shield-dog"> <!--USED FONT AWESOME DOG-SHIELD TO SIGNAL HOME-->
+                        </i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">Kennal Map
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menu.html" target="_blank">Menu
+                            <i class="fa-solid fa-book-skull">  <!--USED FONT AWESOME BOOK SKULL TO SIGNAL MENU-->
+                            </i>
+                        </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="hiring.html" target="_blank">Hiring Page
+                            <i class="fa-sharp-duotone fa-solid fa-scroll">
+                                <!--USED FONT AWESOME SCROLL TO SIGNAL PAPER FOR APPLICATION-->
+                            </i>
+                        </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
 <h1>PUPPY CHOW MENU</h1>
 <h2>PLEASE REVIEW MENU BELOW BEFORE ORDERING</h2>
-<table border="5"
-       cellpadding="5"
-       cellspacing="5"
->
-    <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Price</th>
-    </tr>
-    <tr>
-        <td>Chicken Burrito</td>
-        <td>Plump chicken with fluffy rice, doused in our homemade brocolli sauce, made perfect for pups.</td>
-        <td>$50.00</td>
-    </tr>
-    <tr>
-        <td>Beef Burrito</td>
-        <td>Beefiest of beefs hiding in brown rice. Flooded with our creamy white alfredo sauce, for the good pups</td>
-        <td>$75.00</td>
-    </tr>
-    <tr>
-        <td>Beef Wellington</td>
-        <td>For those pups that enjoy the earthy taste of beef and love to dig in the shitake mushroom filling.</td>
-        <td>$150.00</td>
-    </tr>
-    <tr>
-        <td>The Cats Specialty</td>
-        <td>Cesar Salad with slices of ham and a side of ranch</td>
-        <td>$20.00</td>
-    </tr>
-    <tr>
-        <td>Dogs Dish</td>
-        <td>18oz T-Bone Steak with a side of fries or mashed potatos. For the Pups to become Dogs</td>
-        <td>$25.00</td>
-    </tr>
-    <tr>
-        <td>Dogs kennal</td>
-        <td>Three types of sausages (Chorizo, Bratwurst, and Italian Sausage) served with grilled veggies.</td>
-        <td>$45.00</td>
-    </tr>
-</table>
+<div>
+    <div>
+        <img id="menu-image" src="" alt="" class="img-fluid rounded shadow"></img>
+        <h3 id="menu-name"></h3>
+        <p id="menu-description"></p>
+        <p id="menu-price"></p>
+    </div>
+</div>
+<div>
+    <button id="Prev" class="btnPrev">Previous</button>
+    <button id="Next" class="btnNext">Next</button>
+</div>
 <footer>
-    <h3>Back To Home</h3>
-    <a href="index.html"
-    >PuppyChowMain</a>
-    <h3>Back To Hiring</h3>
-    <a href="hiring.html"
-    >PuppyChowHiringStation</a>
+    <div class="location">
+        <h3>Location </h3>
+        <p>30th 15th Street, Lamda TX, 73625</p>
+    </div>
+    <div class="fiveStars">
+        <h3>Rate Us 5 Stars</h3>
+    </div>
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <p>+1(555)555-5555</p>
+    </div>
 </footer>
-
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 </html>
