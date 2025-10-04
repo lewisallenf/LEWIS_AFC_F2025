@@ -1,0 +1,21 @@
+body, html {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 0.3s ease-in-out;
+}
+body.Home {
+    background-image: url("./assets/images/PuppyChowMaster.jpeg");
+}
+body.Menu {
+    background-image: url("./assets/images/PuppyChow2.jpeg");
+}
+body.Hiring {
+    background-image: url("./assets/images/evilside.jpeg");
+}
+p, span, td, th, label, input, textarea, li, a, div {
+    color: #39FF14;
+}
+
