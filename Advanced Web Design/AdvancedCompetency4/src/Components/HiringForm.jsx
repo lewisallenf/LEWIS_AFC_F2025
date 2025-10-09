@@ -57,6 +57,7 @@ const HiringForm = () => {
             case "age":
                 if (!value) error = "Age is required.";
                 else if (value < 21) error = "Must be 21 or older.";
+                else if (value > 99) error ="Must be 99 or Younger";
                 break;
 
             default:
@@ -79,6 +80,7 @@ const HiringForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
 
         Object.entries(formData).forEach(([key, value]) =>
             validateField(key, value)
@@ -172,7 +174,7 @@ const HiringForm = () => {
 
                 <Col md={4}>
                     <FormGroup>
-                        <Label for="state">State</Label>
+                        <Label for="state">State: </Label>
                         <Input id="state" name="state" type="select" required>
                             <option value="">Select...</option>
                             <option value="WY">WY</option>
